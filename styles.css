@@ -23,8 +23,8 @@ li, a, button {
 
 .flex{
     display: flex;
-    padding: 1vh;
-    margin: 1vh;
+    padding: 1rem;
+    margin: 1rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -34,12 +34,12 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 1vh 10%;
+    padding: 1rem 5%;
 }
 
 .logo{
     cursor: pointer;
-    margin-right: auto;
+    margin-right: 900px;
     
 }
 
@@ -49,7 +49,7 @@ header{
 
 .nav_links li{
     display: inline-block;
-    padding: 1vh 1vh;
+    padding: 15px 15px;
 }
 
 .nav_links li a{
@@ -60,12 +60,12 @@ header{
     color: #0088a9;
 }
 
-button{
+button {
     margin-left: 0.5rem;
-    padding: 1vh 2.5vh;
+    padding: 15px 15px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
-    border-radius: 5vh;
+    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
