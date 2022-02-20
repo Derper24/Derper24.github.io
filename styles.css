@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0vh;
     padding: 0vh;
-    background-color: #e2e2e2;
+    background-color: #ffffff;
     font-family: "roboto", sans-serif;
 }
 
@@ -23,12 +23,13 @@ li, a, button {
 
 .flex{
     display: flex;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 
 header{
     display: flex;
@@ -72,4 +73,8 @@ button {
 
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+.animation{
+    transition: all 0.3 ease 0.4;
 }
