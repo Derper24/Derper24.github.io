@@ -16,7 +16,7 @@ li, a, button {
     font-size: 1rem;
     color: #0c0c0c;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.001);
+    background-color: rgba(0, 0, 0, 0.01);
 
 }
 
@@ -46,18 +46,18 @@ header{
     margin-right: auto;
 }
 .nav{
-    background-color: rgba(0, 0, 0, 0.0001);
+    background-color: rgba(0, 0, 0, 0.001);
 }
 
 .nav_links{
     list-style:none;
-    background-color: rgba(0, 0, 0, 0.0001);
+    background-color: rgba(0, 0, 0, 0.001);
 }
 
 .nav_links li{
     display: inline-block;
     padding: 15px 15px;
-    background-color: rgba(0, 0, 0, 0.0001);
+    background-color: rgba(0, 0, 0, 0.001);
     
 }
 
