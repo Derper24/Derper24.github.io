@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0vh;
-    padding: 0vh;
-    background-color: #ffffff;
     font-family: "roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.01);
 }
+
 
 :root{
     font-size: 20px;
@@ -18,13 +16,14 @@ li, a, button {
     font-size: 1rem;
     color: #0c0c0c;
     text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.001);
 
 }
 
 .flex{
     display: flex;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    padding: 0.5vmin;
+    margin: 0.5vmin;
     justify-content: center;    
     align-items: center;
     flex-direction: column;
@@ -35,26 +34,36 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 1rem 5%;
+    padding: 0.5vmin 1.5%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+
+
 }
 
 .logo{
     cursor: pointer;
     margin-right: auto;
-    
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.0001);
 }
 
 .nav_links{
     list-style:none;
+    background-color: rgba(0, 0, 0, 0.0001);
 }
 
 .nav_links li{
     display: inline-block;
     padding: 15px 15px;
+    background-color: rgba(0, 0, 0, 0.0001);
+    
 }
 
 .nav_links li a{
     transition: all 0.3s ease 0s;
+    
 }
 
 .nav_links li a:hover{
@@ -69,6 +78,7 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    
 }
 
 button:hover{
@@ -83,6 +93,7 @@ button:hover{
     border: 5px;
     display: flex;
     justify-content: center;
+    transform: translatey(120%);
 }
 
 .fadein{
@@ -94,3 +105,25 @@ button:hover{
     from {opacity: 0;}
     to {opacity: 1;}
 }
+/*
+.big-card {
+    display: flex;
+    align-items: center;
+    max-width: px;
+    aspect-ratio: 1/1;
+    border-radius: 2.5vmin;
+    transform: translate(100%, 45%);
+
+
+}
+
+.big-card:nth-child(1){
+    background-image: url(SFS.jpg);
+    transition: transform 1250ms cubic-bezier(.05,.43,.25,.95)
+}
+
+.card-group:hover > .big-card:nth-child(1){
+    transform: translate(100%, 45%) rotate(20deg);
+
+}
+*/
